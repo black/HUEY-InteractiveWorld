@@ -18,7 +18,7 @@ void setup() {
   testLayer.endDraw();
   //----------------------------------------------------
   minim = new Minim(this); // initialaizing minim object
-  for (int i=0; i<player.length;i++) {
+  for (int i=0; i<player.length; i++) {
     String str = "Incredibox.com_"+i  +".mp3"; // file name & path
     //String str = i+".mp3";
     player[i] = minim.loadFile(str); // load file in audio player array loadFile ( "FILE NAME");
@@ -53,7 +53,7 @@ void draw() {
   bs.loadBlobsFeatures();
   bs.weightBlobs(false); 
   //---------------------------------------
-  for (int i=0;i<bs.getBlobsNumber();i++) {
+  for (int i=0; i<bs.getBlobsNumber (); i++) {
     PVector[] pixloc = bs.getBlobPixelsLocation(i);
     PVector p = new PVector(pixloc[0].x, pixloc[0].y);
     blobValues.put(p, i);
@@ -116,7 +116,7 @@ void draw() {
           // melodies     
           println("B:" + B);
           player[B].loop();
-           player[B].setVolume(0.5);
+          player[B].setVolume(0.5);
           //        if (!player[B].isPlaying()) {
           //          player[B].rewind();  
           //          player[B].play();
