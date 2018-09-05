@@ -12,3 +12,5 @@ An interactive Kinect based hand gesture controlled drawing application.
 6. Create music while drawing
 
 [PROJECT](https://www.behance.net/gallery/17018237/HUEY-An-Interactive-Play-Environment-for-Kids)
+
+![alt](https://mir-s3-cdn-cf.behance.net/projects/202/17018237.548bd603b94c0.png)
