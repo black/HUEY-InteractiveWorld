@@ -10,6 +10,7 @@ An interactive Kinect based hand gesture controlled drawing application.
 4. Transfer colors to other person just by touching other person's hand
 5. Puppetting feature - Animate your drawing using your body movements
 6. Create music while drawing
+7. Remote Collaboration
 
 [PROJECT](https://www.behance.net/gallery/17018237/HUEY-An-Interactive-Play-Environment-for-Kids)
 
