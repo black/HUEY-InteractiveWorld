@@ -2,7 +2,7 @@
 
 An interactive Kinect based hand gesture controlled drawing application. 
 
-##Features
+## Features
 
 1. Pick colors from real world just by touching object
 2. Pick two colors from real world just by touching the object
